@@ -1,0 +1,298 @@
+* {
+  scroll-behavior: smooth;
+}
+:root {
+  --color-white: #f3f3f3;
+  /* --color-darkblue: #1b1b32; */
+  --color-darkblue-alpha: #343A40;
+  --color-green: #ffc107;
+}
+.bgimg {
+  background-image: url("../images/bgimg-min.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 660px;
+}
+
+.headerset {
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.headerset h2 {
+  font-size: 42px;
+}
+
+.headerset h1 {
+  font-size: 82px;
+  font-weight: bold;
+}
+
+/*...........ourservices.....*/
+
+.ourservices {
+  padding: 100px 0px 60px;
+  min-height: 700px;
+}
+
+.ourservices h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.rowsetting {
+  margin: 80px 0px !important;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.fa-shopping-cart {
+  margin-top: 20px;
+}
+
+.fa-desktop {
+  margin-top: 20px;
+}
+
+.fa-lock {
+  margin-top: 20px;
+}
+
+.rowsetting h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.rowsetting p {
+  padding: 10px;
+  color: #6c757d !important;
+}
+
+/*...........portfolio.....*/
+
+.portfolio {
+  min-height: 1100px;
+  height: auto;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+
+.portfolio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+/*...........ourteam.....*/
+
+.ourteam {
+  min-height: 700px;
+  padding: 100px 0px 60px;
+  width: 100%;
+}
+
+.ourteam h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.teamsetting {
+  margin-top: 70px !important;
+}
+
+/*...........footer.....*/
+
+/* <!--.footer{ */
+/* height: auto;
+	width: auto;
+}
+
+.footer h6{
+        line-height: 50px;
+}*/
+/* --> */
+/*...........responsive.....*/
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+@media (min-width: 480px) and (max-width: 574px) {
+}
+
+@media (max-width: 479px) {
+  .headerset h2 {
+    font-size: 22px;
+  }
+
+  .headerset h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .ourservices {
+    height: 1200px;
+  }
+
+  .portfolio {
+    height: 2700px;
+  }
+
+  .ourteam {
+    height: 1400px;
+  }
+}
+
+/* FORM STYLING */
+
+#form h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+#form p {
+  font-size: 1.125rem;
+}
+
+#form h1,
+#form p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#form label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+#form input,
+#form button,
+#form select,
+#form textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#form button {
+  border: none;
+}
+
+#form .container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  #form .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  #form .container {
+    max-width: 720px;
+  }
+}
+
+#form .header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+#form .description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#form .clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+#form .text-center {
+  text-align: center;
+}
+
+/* form */
+
+#form form {
+  background: var(--color-darkblue-alpha);
+  color: white;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  #form form {
+    padding: 2.5rem;
+  }
+}
+
+#form .form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+#form .form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#form .form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#form .input-radio,
+#form .input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+#form .input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+#form .submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}

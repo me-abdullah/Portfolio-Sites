@@ -1,0 +1,11 @@
+.list-inline-item a i:hover{
+    color: #d0a772;
+}
+
+.fa-map-marker,.fa-envelope, .fa-volume-control-phone{
+    transition: 0.3s;
+}
+.fa-map-marker:hover,.fa-envelope:hover, .fa-volume-control-phone:hover{
+    font-size:3rem;
+    
+}
